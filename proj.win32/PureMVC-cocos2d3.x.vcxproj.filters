@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pureMvc">
+      <UniqueIdentifier>{626b5bfe-804e-4f5b-8a31-5c326531348d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\test">
+      <UniqueIdentifier>{a639d276-6cb5-4b4b-a2e4-51d24e88f17b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\test\controller">
+      <UniqueIdentifier>{0d1ff206-e936-41bd-bfcf-9c9eb5d148ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\test\model">
+      <UniqueIdentifier>{5b99557a-fefd-46d8-acd9-9d26223f2b8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\test\view">
+      <UniqueIdentifier>{b260fd45-39c3-46b1-a826-770211f4f271}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\test\model\proxy">
+      <UniqueIdentifier>{8a8e5c8f-6cac-4856-bdee-4ca886e13a36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\test\view\mediator">
+      <UniqueIdentifier>{30b0af2a-9936-43e0-86e9-b5b1f98831d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\test\view\ui">
+      <UniqueIdentifier>{6dceef74-ca1f-4a40-b095-9ce99084de26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\test\model\vo">
+      <UniqueIdentifier>{dd6ec13a-24c1-42f0-bedd-5ebf7e581443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\test\config">
+      <UniqueIdentifier>{c1ba99f1-4d91-4c96-ad6f-d2cbfce315ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\pureMvc\Proxy.cpp">
+      <Filter>src\pureMvc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\pureMvc\Notification.cpp">
+      <Filter>src\pureMvc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\pureMvc\Facade.cpp">
+      <Filter>src\pureMvc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\pureMvc\Mediator.cpp">
+      <Filter>src\pureMvc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\pureMvc\Command.cpp">
+      <Filter>src\pureMvc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\test\model\proxy\TestProxy.cpp">
+      <Filter>src\test\model\proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\test\view\mediator\TestMediator.cpp">
+      <Filter>src\test\view\mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\test\controller\ModelCommand.cpp">
+      <Filter>src\test\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\test\controller\ViewCommand.cpp">
+      <Filter>src\test\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\test\controller\InitDataCommand.cpp">
+      <Filter>src\test\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\test\PureMvcTest.cpp">
+      <Filter>src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\test\model\vo\TestVo.cpp">
+      <Filter>src\test\model\vo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\test\view\ui\TestPanel.cpp">
+      <Filter>src\test\view\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer.cpp">
+      <Filter>src\test</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\pureMvc\Proxy.h">
+      <Filter>src\pureMvc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\pureMvc\Notification.h">
+      <Filter>src\pureMvc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\pureMvc\Facade.h">
+      <Filter>src\pureMvc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\pureMvc\Mediator.h">
+      <Filter>src\pureMvc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\pureMvc\Command.h">
+      <Filter>src\pureMvc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\test\model\proxy\TestProxy.h">
+      <Filter>src\test\model\proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\test\view\mediator\TestMediator.h">
+      <Filter>src\test\view\mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\test\controller\ModelCommand.h">
+      <Filter>src\test\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\test\controller\ViewCommand.h">
+      <Filter>src\test\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\test\controller\InitDataCommand.h">
+      <Filter>src\test\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\test\PureMvcTest.h">
+      <Filter>src\test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\test\model\vo\TestVo.h">
+      <Filter>src\test\model\vo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\test\view\ui\TestPanel.h">
+      <Filter>src\test\view\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\test\config\MessageConfig.h">
+      <Filter>src\test\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer.h">
+      <Filter>src\test</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
