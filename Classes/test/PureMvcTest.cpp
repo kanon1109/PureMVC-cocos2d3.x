@@ -4,15 +4,15 @@
 #include "InitDataCommand.h"
 #include "Facade.h"
 #include "MessageConfig.h"
-#include "GameLayer.h"
+#include "LayerManager.h"
 
 PureMvcTest::PureMvcTest(void)
 {
 	CCLOG("startMvc");
 	this->startMvc();
 
-	g_gameLayer->uiLayer = Node::create();
-	this->addChild(g_gameLayer->uiLayer);
+	g_layerManager->uiLayer = Node::create();
+	this->addChild(g_layerManager->uiLayer);
 
 	/*__Array* ary = __Array::create();
 	ary->retain();

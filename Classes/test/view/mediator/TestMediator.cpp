@@ -1,5 +1,5 @@
 #include "TestMediator.h"
-#include "GameLayer.h"
+#include "LayerManager.h"
 #include "MessageConfig.h"
 #include "TestPanel.h"
 #include "ui\UIButton.h"
@@ -38,7 +38,7 @@ void TestMediator::handleNotification( Notification* notification )
 		if(this->testPanel == NULL)
 		{
 			this->testPanel = TestPanel::create();
-			g_gameLayer->uiLayer->addChild(testPanel);
+			g_layerManager->uiLayer->addChild(testPanel);
 			Button* btn = (Button*)(this->testPanel->getChildByTag(1));
 			btn->addTouchEventListener(CC_CALLBACK_2(TestMediator::touchBtnHandler, this));
 		}
