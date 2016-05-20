@@ -18,7 +18,6 @@ void TestProxy::initData()
 		TestVo* tVo = new TestVo();
 		tVo->id = i;
 		tVo->name = CCString::createWithFormat("name %d", i)->_string;
-		CCLOG("%s", tVo->name.c_str());
 		tVo->retain();
 		this->vect.push_back(tVo);
 	}

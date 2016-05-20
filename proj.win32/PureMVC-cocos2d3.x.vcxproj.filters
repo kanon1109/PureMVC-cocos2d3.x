@@ -87,7 +87,7 @@
     <ClCompile Include="..\Classes\test\view\ui\TestPanel.cpp">
       <Filter>src\test\view\ui</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\GameLayer.cpp">
+    <ClCompile Include="..\Classes\test\GameLayer.cpp">
       <Filter>src\test</Filter>
     </ClCompile>
   </ItemGroup>
@@ -140,7 +140,7 @@
     <ClInclude Include="..\Classes\test\config\MessageConfig.h">
       <Filter>src\test\config</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\GameLayer.h">
+    <ClInclude Include="..\Classes\test\GameLayer.h">
       <Filter>src\test</Filter>
     </ClInclude>
   </ItemGroup>
