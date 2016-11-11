@@ -42,6 +42,7 @@ void Mediator::onGetMvcMsg( Ref* param )
 		if(strcmp(notificationName, messageName) == 0)
 		{
 			handleNotification(notification);
+			break;
 		}
 	}
 }
